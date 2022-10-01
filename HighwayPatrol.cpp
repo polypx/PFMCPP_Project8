@@ -2,6 +2,8 @@
 #include <iostream>
 #include <cassert>
 
+#include "Highway.h"
+
 HighwayPatrol::HighwayPatrol() : Vehicle("HighwayPatrol")
 {
 

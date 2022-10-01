@@ -1,4 +1,5 @@
 #include "Highway.h"
+#include "Vehicle.h"
 
 #include <cassert>
 
@@ -37,6 +38,7 @@ void Highway::addVehicle(Vehicle* v)
     vehicles.push_back(v);
     addVehicleInternal(v);
 }
+
 void Highway::removeVehicle(Vehicle* v)
 {
     vehicles.erase(std::remove(vehicles.begin(), 
