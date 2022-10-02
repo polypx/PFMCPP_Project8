@@ -7,7 +7,8 @@
 struct Motorcycle : public Vehicle
 {
     Motorcycle(const std::string& n);
-    
+    ~Motorcycle() override = default;
+
     void lanesplitAndRace( int topSpeed = std::numeric_limits<int>::max() );
     
     void tryToEvade() override;
