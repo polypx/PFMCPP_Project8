@@ -3,7 +3,7 @@
 
 struct SemiTruck : public Vehicle
 {
-    SemiTruck(const std::string& s);
+    SemiTruck(const std::string& n);
     ~SemiTruck() override = default;
 
 };
