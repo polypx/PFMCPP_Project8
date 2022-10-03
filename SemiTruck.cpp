@@ -14,5 +14,11 @@ void SemiTruck::drivePrettySlow()
     setSpeed(45);
 }
 
+void SemiTruck::setSpeed(int s)
+{
+    std::cout << name << "Semi: set speed" << std::endl;
+    Vehicle::setSpeed(s);
+}
+
 
 

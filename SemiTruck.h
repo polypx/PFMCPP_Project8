@@ -10,6 +10,7 @@ struct SemiTruck : Vehicle
 
     void pullOver();
     void drivePrettySlow();
+    void setSpeed(int s) override;
 
 };
 
