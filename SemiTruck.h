@@ -8,6 +8,8 @@ struct SemiTruck : Vehicle
     SemiTruck(const SemiTruck&) = default;
     SemiTruck& operator=(const SemiTruck&) = default;
 
+    void pullOver();
+    void drivePrettySlow();
 
 };
 
