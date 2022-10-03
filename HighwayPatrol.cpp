@@ -58,9 +58,7 @@ std::string HighwayPatrol::findVehicleType(Vehicle* v) // once again dynamic cas
     {
         return("truck");
     }
-    else
-    {
-        return("unknown type");
-    }    
+
+    return("unknown type");
 }
 
